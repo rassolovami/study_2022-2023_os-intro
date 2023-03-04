@@ -8,10 +8,6 @@ author: "Рассолова Маргарита Сергеевна"
 lang: ru-RU
 toc-title: "Содержание"
 
-## Bibliography
-bibliography: bib/cite.bib
-csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
-
 ## Pdf output format
 toc: true # Table of contents
 toc-depth: 2
@@ -42,7 +38,7 @@ romanfontoptions: Ligatures=TeX
 sansfontoptions: Ligatures=TeX,Scale=MatchLowercase
 monofontoptions: Scale=MatchLowercase,Scale=0.9
 ## Biblatex
-biblatex: false
+biblatex: False
 biblio-style: "gost-numeric"
 biblatexoptions:
   - parentracker=true
@@ -93,7 +89,4 @@ Markdown - это облегченный язык разметки, создан
 
 Научилась оформлять отчеты с помощью легковесного языка разметки Markdown.
 
-# Список литературы{.unnumbered}
 
-::: {#refs}
-:::
